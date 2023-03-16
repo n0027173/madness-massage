@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Massage Madness</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="js/googleMaps.js"></script>
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" width="75" height="50" class="d-inline-block align-top" alt="company logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactUs.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+    <h2 class="titleHeader">Contact Us</h2>
+  <main role="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Office Hours</h4>
+                    <b>Monday</b> - 10 a.m. to 7 p.m.<br />
+                    <b>Tuesday</b> - 9 a.m. to 6 p.m.<br />
+                    <b>Wednesday</b> - 10 a.m. to 6 p.m.<br /> 
+                    <b>Thursday</b> - 10 a.m. to 6 p.m.<br />
+                    <b>Friday</b> - 9 a.m. to 7 p.m.<br />
+                    <b>Saturday</b> - 9 a.m. to 12 p.m.<br />
+                    <br />
+                <h4>Address</h4>
+                12345 Any Boulevard<br />
+                Suite #100<br />
+                Beverly Hills, CA 90210<br /> 
+                <br />
+                <h4>Phone (call or text)</h4>
+                (555)555-1234<br />
+                <br />
+            </div> 
+            <div class="col-md-8">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.7295363815!2d-0.24202360894870828!3d51.52877143112503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sus!4v1678892743450!5m2!1sen!2sus" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 order-md-1">
+                <h4 class="mb-4 mt-4">Contact Information</h4>
+                <form class="needs-validation" action="#" method="get">
+                    <div class="row">
+                        <div class="col-md-6 mb-3 form-group">
+                            <label for="firstName">First name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Your first name" required>
+                        </div>
+                        <div class="col-md-6 mb-3 form-group">
+                            <label for="lastName">Last name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Your last name" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email">Email</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@</span>
+                            </div>
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-group">
+                            <label for="remarks">What can we help you with?</label>
+                            <textarea class="form-control" id="remarks" rows="3" required></textarea>
+                        </div>
+                    </div>
+                    <button class="btn" type="submit">Contact Us</button>
+            </form>
+          </div>
+        </div>
+    </div>
+  </main>
+    <footer>
+        <hr />
+        Copyright &copy 2023. All rights reserved.
+    </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>

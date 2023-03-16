@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Massage Madness</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" width="75" height="50" class="d-inline-block align-top" alt="company logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactUs.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+    <h2 class="titleHeader">User Login</h2>
+  <main role="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 order-md-1">
+              <p>
+              Don't have an account? Please click <a href="register.html">here</a> to register.
+              </p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 order-md-1">
+                <form class="needs-validation" action="#" method="get">
+                    <div class="mb-3">
+                        <label for="email">Email</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@</span>
+                            </div>
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password">Password</label>
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="password" placeholder="Password" required>
+                        </div>
+                    </div>
+                    <button class="btn" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+    </div>
+  </main>
+    <footer>
+        <hr />
+        Copyright &copy 2023. All rights reserved.
+    </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
