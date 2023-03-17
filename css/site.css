@@ -106,7 +106,9 @@ footer
     height: 30px; */
     text-align: center;
 }
-
+.italicize {
+    font-style: italic;
+}
 
 fieldset {
     min-width: 0;
