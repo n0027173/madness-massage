@@ -99,10 +99,15 @@ section > h2 {
 footer
 {
     font-size: .70em;
-    padding:5px;
+    padding: 7px 0 10px 0px;
     text-align:center;
     font-weight:bold;
+   /* background-color: #E6E6E6; 
+    height: 30px; */
+    text-align: center;
 }
+
+
 fieldset {
     min-width: 0;
     padding: 15px;
